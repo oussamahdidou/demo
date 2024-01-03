@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxWidth="400.0" prefHeight="347.0" prefWidth="470.0" style="-fx-background-color: #3e3e42;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Home">
+    <children>
+        <ImageView fitHeight="347.0" fitWidth="207.0" smooth="false">
+            <image>
+                <Image url="@icons/téléchargement.jpg" />
+            </image>
+        </ImageView>
+      <VBox prefHeight="347.0" prefWidth="201.0" style="-fx-alignment: center;">
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="55.0" prefWidth="425.0" text="Reconisation" textAlignment="JUSTIFY" textFill="WHITE">
+         <font>
+            <Font name="Microsoft JhengHei Bold" size="24.0" />
+         </font>
+      </Label>
+          <Button onAction="#chooseImage" alignment="CENTER" contentDisplay="CENTER" prefHeight="25.0" prefWidth="174.0" style="-fx-background-color: #007acc;" text="Get Image" textFill="WHITE" />
+      </VBox>
+    </children>
+</HBox>
